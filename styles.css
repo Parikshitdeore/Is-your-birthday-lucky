@@ -1,0 +1,20 @@
+*{
+    margin: auto;
+    text-align: center;
+}
+header{
+    margin-top: 5rem;
+    margin: 2rem;
+}
+input{
+    display: block;
+}
+label{
+    padding: 2rem;
+}
+textarea{
+    display: block;
+}
+button{
+    margin:2rem;
+}
