@@ -4,6 +4,7 @@
     margin: auto;
     text-align: center;
     font-weight: 700;
+    font-size: 1rem;
     background-color:#c084fc;
     color: #f5d0fe;
 }
@@ -12,6 +13,7 @@ header{
     margin: 2rem;
 }
 h1{
+    font-size: 2rem;
     text-decoration-style: double;
     color: #a21caf
 }
