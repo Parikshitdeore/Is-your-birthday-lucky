@@ -20,11 +20,11 @@ if(1000>inputNum.value>0){
    console.log(sum)
 
    if(sum%inputNum.value===0){
-    var lucky = "Your Birthday is Lucky 😊 !"
+    var lucky = "Congratulations ! Your Number is Lucky 😊 !"
     output.innerText=lucky
    }
     else{
-        var notlucky = "Your Birthday not so Lucky 😔 !"
+        var notlucky = "Unfortunately, Your number is not so lucky 😔 !"
         output.innerText=notlucky
     }
 

@@ -15,7 +15,9 @@ header{
 h1{
     font-size: 2rem;
     text-decoration-style: double;
-    color: #a21caf
+    color: #a21caf;
+    padding: 1rem;
+
 }
 input{
     background-color: #a21caf;
