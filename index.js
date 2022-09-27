@@ -2,12 +2,14 @@ const inputDate=document.querySelector("#input-date")
 const inputNum=document.querySelector("#input-num")
 const checkButton=document.querySelector("#check-button")
 const output=document.querySelector("#output")
+const errormsg=document.querySelector("#error-message")
 
 
 checkButton.addEventListener("click", checkButtonHandler)
 
 function checkButtonHandler(){
 
+if(1000>inputNum.value>0){
    var dob=inputDate.value
    var sum = 0;
    dob=dob.replaceAll("-","")
@@ -28,9 +30,8 @@ function checkButtonHandler(){
 
     
 }
+else{
+    errormsg.innerText="⚠️ lmao "
+}
 
-
-
-
-
-
+}
