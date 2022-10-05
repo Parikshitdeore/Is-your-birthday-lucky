@@ -8,6 +8,9 @@ const errormsg=document.querySelector("#error-message")
 checkButton.addEventListener("click", checkButtonHandler)
 
 function checkButtonHandler(){
+    if(inputDate.value!==""){
+        if(inputNum.value!==""){
+            if(inputNum.value>0){
 
 if(1000>inputNum.value>0){
    var dob=inputDate.value
@@ -31,7 +34,8 @@ if(1000>inputNum.value>0){
     
 }
 else{
-    errormsg.innerText="⚠️ lmao "
+    errormsg.innerText="Error ! Enter proper Input! "
 }
 
 }
+}}}
